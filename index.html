@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>새벽 3시의 단골</title>
+<style>
+:root { --bg:#f4f1ea; --card:#ffffff; --ink:#1d1b19; --muted:#6d675f; --line:#e4ded3; --accent:#5e4b8b; --ok:#2e7d32; --okbg:#e8f3e8; --wip:#a15c00; --wipbg:#fbefdc; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#16151a; --card:#211f26; --ink:#ece8e1; --muted:#9a948b; --line:#33303a; --accent:#b7a6e6; --ok:#8fd19a; --okbg:#1f3323; --wip:#f0b86a; --wipbg:#3a2c18; } }
+:root[data-theme="dark"] { --bg:#16151a; --card:#211f26; --ink:#ece8e1; --muted:#9a948b; --line:#33303a; --accent:#b7a6e6; --ok:#8fd19a; --okbg:#1f3323; --wip:#f0b86a; --wipbg:#3a2c18; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Malgun Gothic","Apple SD Gothic Neo",sans-serif; line-height:1.55; }
+main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+header { text-align:center; margin-bottom:28px; }
+.clock { display:inline-block; font-size:13px; letter-spacing:.12em; color:var(--accent); border:1px solid var(--line); border-radius:999px; padding:3px 12px; margin-bottom:14px; }
+h1 { font-size:clamp(28px,8vw,40px); margin:0 0 12px; letter-spacing:-.02em; }
+.log { color:var(--muted); font-size:15px; margin:0 auto; max-width:34em; }
+.stat { margin-top:14px; font-size:14px; color:var(--muted); }
+.list { display:flex; flex-direction:column; gap:10px; }
+.card { display:flex; gap:14px; align-items:flex-start; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; color:inherit; text-decoration:none; transition:border-color .15s, transform .15s; }
+a.card:hover { border-color:var(--accent); transform:translateY(-1px); }
+.card.off { opacity:.75; }
+.num { flex:none; width:48px; height:48px; border-radius:12px; background:var(--bg); display:grid; place-items:center; font-weight:700; font-size:15px; color:var(--accent); }
+.body { flex:1; min-width:0; }
+h2 { font-size:17px; margin:2px 0 4px; }
+.body p { margin:0 0 8px; font-size:14px; color:var(--muted); }
+.meta { display:flex; gap:8px; align-items:center; font-size:12px; color:var(--muted); flex-wrap:wrap; }
+.badge { border-radius:999px; padding:1px 9px; font-weight:600; }
+.ok { color:var(--ok); background:var(--okbg); }
+.wip { color:var(--wip); background:var(--wipbg); }
+.go { flex:none; align-self:center; font-size:22px; color:var(--muted); }
+footer { margin-top:28px; text-align:center; font-size:12px; color:var(--muted); }
+</style></head>
+<body><main>
+<header>
+<div class="clock">AM 3:00</div>
+<h1>새벽 3시의 단골</h1>
+<p class="log">편의점 야간 알바생 하루는 매일 새벽 3시에 컵라면을 사 가는 수상한 단골이 저승사자이며, 그가 47일째 데려가지 못한 사람이 바로 자신이라는 것을 알게 된다.</p>
+<div class="stat">전 12화 중 12화 완성</div>
+</header>
+<section class="list">
+<a class="card" href="ep01/index.html"><div class="num">1화</div>
+<div class="body"><h2>컵라면은 매운맛으로</h2>
+<p>매일 새벽 3시 컵라면을 사 가는 갓 쓴 단골이 저승차사 무영임을 하루가 먼저 알아채고, 그가 떨어뜨린 명부에서 47번 미뤄진 자기 이름을 본다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>19컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep02/index.html"><div class="num">2화</div>
+<div class="body"><h2>오늘은 순한맛</h2>
+<p>떠날 준비를 마친 하루 앞에서 무영은 이름 부르기를 망치고, 47개의 시시한 핑계 끝에 첫날의 &quot;오셨어요&quot;가 미룬 이유였음이 드러난다. 그리고 누구도 찍지 않은 붉은 인장 &#x27;四十九&#x27;.</p>
+<div class="meta"><span class="badge ok">완성</span><span>18컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep03/index.html"><div class="num">3화</div>
+<div class="body"><h2>순한맛은 처음이라</h2>
+<p>순한맛에 처음 감동한 무영. 하지만 인장은 그가 찍은 것이 아니고, 사유 칸엔 &#x27;약조&#x27; 두 글자뿐이다. 하루가 대신 핑계를 쓴 밤, 감찰 차사가 온다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>18컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep04/index.html"><div class="num">4화</div>
+<div class="body"><h2>우유는 규정에 없습니다</h2>
+<p>문 위 종을 갓으로 울리는 꼿꼿한 감찰 차사 백연이 &quot;기한은 내일 새벽 세 시&quot;를 고하고, 감찰부에서 &#x27;16년 전 약조, 증표는 붉은 붓 한 자루&#x27;가 나온다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep05/index.html"><div class="num">5화</div>
+<div class="body"><h2>오셨어요, 열여섯 해 만에</h2>
+<p>새벽 3시, 무영이 처음으로 갓을 벗고 하루 앞을 막아선다. 하루는 일곱 살 병실 창가의 키 큰 그림자를 떠올리며 귀에 꽂은 빨간 볼펜을 꺼낸다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>18컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep06/index.html"><div class="num">6화</div>
+<div class="body"><h2>해 뜨는 건 처음이라</h2>
+<p>해 뜰 때까지 남은 둘은 영수증에 일곱 살이 할 법한 약속을 적어 내려가고, 볼펜이 미지근해진다. 백연은 이레의 보류를 준다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep07/index.html"><div class="num">7화</div>
+<div class="body"><h2>&#x27;그대&#x27;라고 부르는 이유</h2>
+<p>무영이 매일 &#x27;하지 않은 것&#x27;은 하루의 이름을 부르는 일이었다. 명부에 남은 붉은 붓 자국 두 개, 그리고 비어 있는 세 번째 자리.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep08/index.html"><div class="num">8화</div>
+<div class="body"><h2>이름 없는 단골</h2>
+<p>그을린 글자가 읽히며, 무영이 16년 전 약조에 자기 이름을 내놓고 &#x27;무영(無影)&#x27;이 되었음이 밝혀진다. 사백 년을 불러 온 백연의 말풍선은 비어 있다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep09/index.html"><div class="num">9화</div>
+<div class="body"><h2>덤이 아니라 하였소</h2>
+<p>이름을 불러 달라는 하루의 작전이 정면충돌로 번지고, &quot;그대는 덤이 아니라 하였소&quot;. 기록에 없는 백연이 처음으로 자기 이야기를 꺼낸다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep10/index.html"><div class="num">10화</div>
+<div class="body"><h2>한 숨만 돌려드릴게요</h2>
+<p>이름은 볼펜에 담긴 소리, 돌려줄 수 있는 건 하루의 &#x27;한 숨&#x27;뿐. 세 사람은 같은 것을 바라며 각자 다른 답을 내놓는다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep11/index.html"><div class="num">11화</div>
+<div class="body"><h2>귀에 꽂아 둔 열여섯 해</h2>
+<p>볼펜의 금이 자라는 것을 숨긴 무영에게 하루는 &#x27;혼자 하지 않기&#x27;를 받아 낸다. 무영이 들은 소리 맨 끝의 작은 목소리에서 일곱 살 밤의 회상이 이어진다.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+<a class="card" href="ep12/index.html"><div class="num">12화</div>
+<div class="body"><h2>한숨 자면 되잖아요</h2>
+<p>보류 마지막 날. 처음으로 3시 전에 온 무영, 풍선을 부는 하루, 그리고 &quot;제 몫을 거두겠습니다&quot;라는 백연.</p>
+<div class="meta"><span class="badge ok">완성</span><span>20컷</span></div></div><span class="go" aria-hidden="true">›</span></a>
+</section>
+<footer>회차를 누르면 세로 스크롤로 볼 수 있어요.</footer>
+</main></body></html>
